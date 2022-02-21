@@ -1,0 +1,98 @@
+:root {
+  --letter-spacing: 0.1rem;
+  --fs: 1rem;
+
+  --fw1: 100;
+  --fw2: 200;
+  --fw3: 300;
+
+  --font-fam: "Jost";
+
+  --grad-col: #ff5f1f80, #00cccc80, #ffffff;
+
+  --head-pad: 10% 10% 10% 10%;
+  --tag-pad: 1% 10% 1% 10%;
+  --sceneicon: 1% 10% 1% 10%;
+  --desc-pad: 1% 10% 1% 10%;
+  --info-pad: 3% 10% 3% 10%;
+  --ticket-pad: 3% 10% 3% 10%;
+}
+
+html {
+  /* The default text size in browsers is 16px. So, the default size of 1em is 16px. */
+  font-size: var(--fs);
+  letter-spacing: var(--letter-spacing);
+}
+
+body {
+  margin: 0%;
+}
+
+.scenelogo {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(var(--grad-col));
+  padding: var(--head-pad);
+}
+
+.tagcontainer {
+  font-family: var(--font-fam), sans-serif;
+  font-weight: var(--fw2);
+}
+
+.one {
+  padding: var(--tag-pad);
+}
+
+.two {
+  padding: var(--tag-pad);
+}
+
+.three {
+  padding: var(--tag-pad);
+}
+
+.four {
+  padding: var(--tag-pad);
+}
+
+.five {
+  padding: var(--tag-pad);
+  color: var(--grad-col);
+}
+
+.sceneiconblk {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    #ffffff 0%,
+    #ff5f1f80 10%,
+    #00cccc80 70%,
+    #ffffff 100%
+  );
+  padding: var(--sceneicon);
+  margin: 0%;
+}
+
+.scenedescription {
+  font-family: var(--font-fam), sans-serif;
+  font-weight: var(--fw3);
+  padding: var(--desc-pad);
+}
+
+.sceneinfo {
+  font-family: var(--font-fam), sans-serif;
+  font-weight: var(--fw3);
+
+  padding: var(--info-pad);
+}
+
+.ticketlink {
+  display: flex;
+  justify-content: center;
+  padding: var(--ticket-pad);
+}
+
+p {
+  font-size: 1.1rem;
+}
