@@ -14,7 +14,8 @@
   --tag-pad: 1% 10% 1% 10%;
   --sceneicon: 1% 10% 1% 10%;
   --desc-pad: 1% 10% 1% 10%;
-  --info-pad: 3% 10% 3% 10%;
+  --info-pad: 0% 10% 2% 10%;
+  --tik-info-pad: 1% 10% 1% 10%;
   --ticket-pad: 3% 10% 3% 10%;
 }
 
@@ -85,6 +86,10 @@ body {
   font-weight: var(--fw3);
 
   padding: var(--info-pad);
+}
+
+.tik-inf-hed {
+  padding: var(--tik-info-pad);
 }
 
 .ticketlink {
