@@ -14,8 +14,11 @@
   --tag-pad: 1% 10% 1% 10%;
   --sceneicon: 1% 10% 1% 10%;
   --desc-pad: 1% 10% 1% 10%;
-  --info-pad: 0% 10% 2% 10%;
-  --tik-info-pad: 1% 10% 1% 10%;
+  --info-pad: 1% 10% 1% 10%;
+  --ven-inf-pad: 1% 10% 1% 10%;
+  --ven-inf-p-pad: 0% 10% 1% 10%;
+  --tik-inf-pad: 1% 10% 1% 10%;
+  --tik-inf-p-pad: 0% 10% 5% 10%;
   --ticket-pad: 3% 10% 3% 10%;
 }
 
@@ -81,15 +84,40 @@ body {
   padding: var(--desc-pad);
 }
 
+.scenesmliconblk {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    #ffffff 0%,
+    #ff5f1f80 10%,
+    #00cccc80 70%,
+    #ffffff 100%
+  );
+  padding: var(--sceneicon);
+  margin: 0%;
+}
+
 .sceneinfo {
   font-family: var(--font-fam), sans-serif;
   font-weight: var(--fw3);
 
-  padding: var(--info-pad);
+  /* padding: var(--info-pad); */
+}
+
+.ven-inf-hed {
+  padding: var(--ven-inf-pad);
+}
+
+.ven-inf-p {
+  padding: var(--ven-inf-p-pad);
 }
 
 .tik-inf-hed {
-  padding: var(--tik-info-pad);
+  padding: var(--tik-inf-pad);
+}
+
+.tik-inf-p {
+  padding: var(--tik-inf-p-pad);
 }
 
 .ticketlink {
