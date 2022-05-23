@@ -18,11 +18,11 @@
   --sceneicon: 1% 10% 1% 10%;
   --desc-pad: 1% 10% 1% 10%;
   --info-pad: 1% 10% 1% 10%;
-  --ven-inf-pad: 1% 10% 1% 10%;
-  --ven-inf-p-pad: 0% 10% 1% 10%;
-  --tik-inf-pad: 1% 10% 1% 10%;
-  --tik-inf-p-pad: 0% 10% 5% 10%;
-  --ticket-pad: 3% 10% 3% 10%;
+  --onboarding-pad: 1% 10% 1% 10%;
+  --onboarding-p-pad: 0% 10% 0% 10%;
+  --onboardingList-pad: 1% 10% 1% 10%;
+  --disclaimer-pad: 0% 10% 0% 10%;
+  --email-pad: 3% 10% 5% 10%;
 }
 
 html {
@@ -69,6 +69,10 @@ p {
 
 .five {
   padding: var(--tag-pad);
+}
+
+.six {
+  padding: var(--tag-pad);
   color: var(--grad-col);
 }
 
@@ -99,20 +103,26 @@ p {
   font-weight: var(--fw3);
 }
 
-.ven-inf-hed {
-  padding: var(--ven-inf-pad);
+.onboardingHed {
+  padding: var(--onboarding-pad);
 }
 
-.ven-inf-p {
-  padding: var(--ven-inf-p-pad);
+.onboardingP {
+  padding: var(--onboarding-p-pad);
 }
 
-.tik-inf-hed {
-  padding: var(--tik-inf-pad);
+.centredList {
+  padding: var(--onboardingList-pad);
+  text-align: center;
 }
 
-.tik-inf-p {
-  padding: var(--tik-inf-p-pad);
+.disclaimer {
+  padding: var(--disclaimer-pad);
+}
+
+.sceneEmail {
+  padding: var(--email-pad);
+  text-align: center;
 }
 
 .ticketlink {
