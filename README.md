@@ -1,6 +1,6 @@
 # Scene
-Queer Ldn Event 
+Creative Ldn play event 
 
-An event for kinksters active on the LDN scene who wish to play with and alongside their queer peers.
+An event for kinksters active on the Ldn scene who wish to play with and alongside their peers
 
-Nothing but love <3 (and piss) ```
+
