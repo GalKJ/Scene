@@ -11,7 +11,7 @@
 
   --grad-col: #ff5f1f80, #00cccc80, #ffffff;
   --wht-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
-  /* The above gradient has colour stops to soften top/bottom. */
+  /* The above gradient has colour stops to soften top/bottom in line with background. */
 
   --head-pad: 10% 10% 10% 10%;
   --tag-pad: 1% 10% 1% 10%;
