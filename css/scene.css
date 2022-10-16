@@ -46,6 +46,11 @@ p {
   padding: var(--head-pad);
 }
 
+.scene-list-container {
+  font-family: var(--font-fam), sans-serif;
+  font-weight: var(--fw2);
+}
+
 .tagcontainer {
   font-family: var(--font-fam), sans-serif;
   font-weight: var(--fw2);
