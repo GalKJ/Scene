@@ -52,12 +52,9 @@ p {
   padding: var(--head-pad);
 }
 
-
-
 .scene-list-item {
   /* font-family: var(--font-fam), sans-serif; */
   font-weight: bold;
-
 }
 
 .tagcontainer {
