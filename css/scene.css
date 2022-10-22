@@ -59,7 +59,7 @@ p {
 }
 
 .scene-list-item {
-  font-family: var(--font-fam), sans-serif;
+  /* font-family: var(--font-fam), sans-serif; */
   font-weight: bold;
 
 }
