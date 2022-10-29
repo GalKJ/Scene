@@ -1,0 +1,17 @@
+:root {
+    --letter-spacing: 0.1rem;
+    --fs: 1rem;
+    --p-fs: 1.1rem;
+  
+    --fw1: 100;
+    --fw2: 200;
+    --fw3: 300;
+  
+    --font-fam: "Jost";
+
+    /* This gradient has colour stops to blend the top/bottom with the page background colour. */
+    --grad-col: #ff5f1f80, #00cccc80, #ffffff;
+    --wht-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
+}
+
+    
