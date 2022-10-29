@@ -1,5 +1,5 @@
 :root {
-    --letter-spacing: 0.1rem;
+    --letter-spacing: 0.05rem;
     --fs: 1rem;
     --p-fs: 1.1rem;
   
@@ -27,6 +27,6 @@ body {
 }
 
 .scene-icon {
-    background-image: var(--grad-col);
+    background-image: linear-gradient(var(--grad-col));
 }
     
