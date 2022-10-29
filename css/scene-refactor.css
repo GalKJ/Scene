@@ -14,4 +14,7 @@
     --wht-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
     
