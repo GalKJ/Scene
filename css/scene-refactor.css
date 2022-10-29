@@ -25,4 +25,8 @@ html {
 body {
     font-family: var(--font-fam);
 }
+
+.scene-icon {
+    background-image: var(--grad-col);
+}
     
