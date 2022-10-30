@@ -1,13 +1,19 @@
 :root {
+    /* Typography */
     --letter-spacing: 0.05rem;
     --fs: 1rem;
     --p-fs: 1.1rem;
-  
+    
+    /* Font weights */
     --fw1: 100;
     --fw2: 200;
     --fw3: 300;
-  
+    
+    /* Font family */
     --font-fam: "Jost";
+
+    /* Padding */
+    --header-padding: 10% 10% 10% 10%;
 
     /* This gradient has colour stops to blend the top/bottom with the page background colour. */
     --grad-col: #ff5f1f80, #00cccc80, #ffffff;
@@ -33,7 +39,7 @@ ul {
     padding: 0;
   }
 
-.scene-icon {
+.scene-header {
     background-image: linear-gradient(var(--grad-col));
     display: flex;
     justify-content: center;
