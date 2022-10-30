@@ -31,18 +31,36 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--font-fam);
-    letter-spacing: var(--letter-spacing);
-}
-
 ul {
     list-style: none;
     padding: 0;
   }
 
+/* Layout primitives */
+.stack-sm > * + * {
+    margin-top: 0.5rem;
+  }
+  
+.stack-md > * + * {
+    margin-top: 1rem;
+  }
+  
+.stack-lg > * + * {
+    margin-top: 2rem;
+  }
+  
+.stack-xl > * + * {
+    margin-top: 4rem;
+  }
 
 /* App specific styles */
+
+
+body {
+    font-family: var(--font-fam);
+    letter-spacing: var(--letter-spacing);
+}
+
 .scene-header {
     background-image: linear-gradient(var(--grad-col));
     display: flex;
