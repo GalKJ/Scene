@@ -35,5 +35,11 @@ ul {
 
 .scene-icon {
     background-image: linear-gradient(var(--grad-col));
+    display: flex;
+    
+}
+
+svg {
+    /* background-image: linear-gradient(var(--grad-col)); */
 }
     
