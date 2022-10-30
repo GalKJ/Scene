@@ -13,7 +13,8 @@
     --font-fam: "Jost";
 
     /* Padding */
-    --header-padding: 10% 10% 10% 10%;
+    --header-padding: 10%;
+    --icon-padding: 1% 10%;
 
     /* This gradient has colour stops to blend the top/bottom with the page background colour. */
     --grad-col: #ff5f1f80, #00cccc80, #ffffff;
@@ -38,7 +39,7 @@ ul {
     list-style: none;
     padding: 0;
   }
-
+/* App specific styles */
 .scene-header {
     background-image: linear-gradient(var(--grad-col));
     display: flex;
@@ -48,11 +49,12 @@ ul {
 }
 .scene-icon {
     background-image: linear-gradient(var(--grad-col));
-    display: inline;
-    /* justify-content: center; */
-    padding: 1% 10%;
+    display: flex;
+    justify-content: center;
+    padding: var(--icon-padding);
     
 }
+
 
 
     
