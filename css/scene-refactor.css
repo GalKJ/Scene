@@ -53,12 +53,27 @@ ul {
     margin-top: 4rem;
   }
 
+.center {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.width-sm {
+    max-width: 20rem;
+  }
+  
+.width-lg {
+    max-width: 60rem;
+  }
+
 /* App specific styles */
 
 
 body {
     font-family: var(--font-fam);
     letter-spacing: var(--letter-spacing);
+
 }
 
 .scene-header {
