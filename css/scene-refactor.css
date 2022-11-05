@@ -53,37 +53,16 @@ section {
     margin-top: 0.5rem;
   }
   
-.stack-md > * + * {
+.stack-md {
     margin-top: 1rem;
   }
   
-.stack-lg > * + * {
+.stack-lg {
     margin-top: 2rem;
   }
   
-.stack-xl > * + * {
+.stack-xl {
     margin-top: 4rem;
-  }
-
-.center {
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-/* .center-text {
-  max-width: 90vw;
-    margin: auto;
-} */
-
-
-  
-.width-sm {
-    max-width: 20rem;
-  }
-  
-.width-lg {
-    max-width: 60rem;
   }
 
 /* App specific styles */
