@@ -16,6 +16,9 @@
     --header-padding: 10%;
     --icon-padding: 1% 10%;
 
+    /* Margin */
+    --li: 0.5% 0%;
+
     /* This gradient has colour stops to blend the top/bottom with the page background colour. */
     --grad-col: #ff5f1f80, #00cccc80, #ffffff;
     --wht-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
@@ -35,6 +38,10 @@ ul {
     list-style: none;
     padding: 0;
   }
+
+li {
+  margin: var(--li);
+}
 
 section {
   max-width: 90vw;
