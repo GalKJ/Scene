@@ -1,0 +1,96 @@
+:root {
+    /* Typography */
+    --letter-spacing: 0.05rem;
+    --fs: 1rem;
+    
+    /* Font family */
+    --font-fam: "Jost";
+
+    /* Padding */
+    --header-padding: 10%;
+    --icon-padding: 1% 10%;
+
+    /* Margin */
+    --li: 0.5% 0%;
+    --enquiries: 3%;
+
+    /* This gradient has colour stops to blend the top/bottom with the page background colour. */
+    --grad-col: #ff5f1f80, #00cccc80, #ffffff;
+    --wht-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
+}
+
+/* Default styles */
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+
+li {
+  margin: var(--li);
+}
+
+section {
+  max-width: 90vw;
+  margin: auto;
+}
+
+/* Layout primitives */
+.stack-sm {
+    margin-top: 0.5rem;
+  }
+  
+.stack-md {
+    margin-top: 1rem;
+  }
+  
+.stack-lg {
+    margin-top: 2rem;
+  }
+  
+.stack-xl {
+    margin-top: 4rem;
+  }
+
+
+/* App specific styles */
+
+
+body {
+    font-family: var(--font-fam);
+    letter-spacing: var(--letter-spacing);
+
+}
+
+.scene-header {
+    background-image: linear-gradient(var(--grad-col));
+    display: flex;
+    justify-content: center;
+    padding: var(--header-padding);
+    
+}
+.scene-icon {
+    background-image: linear-gradient(var(--grad-col));
+    display: flex;
+    justify-content: center;
+    padding: var(--icon-padding);
+    margin: 1% 0%;
+    
+}
+
+#enquiries-wrapper {
+    margin-bottom: var(--enquiries);
+    text-align: center;
+}
+
+
+
+    

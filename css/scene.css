@@ -28,11 +28,17 @@
 html {
   /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
   font-size: var(--fs);
+  font-family: var(--font-fam);
   letter-spacing: var(--letter-spacing);
 }
 
 body {
   margin: 0%;
+}
+
+ul {
+  list-style: none;
+  padding: var(--tag-pad);
 }
 
 p {
@@ -44,6 +50,11 @@ p {
   justify-content: center;
   background-image: linear-gradient(var(--grad-col));
   padding: var(--head-pad);
+}
+
+.scene-list-item {
+  /* font-family: var(--font-fam), sans-serif; */
+  font-weight: bold;
 }
 
 .tagcontainer {
@@ -76,7 +87,7 @@ p {
   color: var(--grad-col);
 }
 
-.sceneiconblk {
+.scene-icon {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(var(--wht-grad));
@@ -90,13 +101,13 @@ p {
   padding: var(--desc-pad);
 }
 
-.scenesmliconblk {
+/* .scenesmliconblk {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(var(--wht-grad));
   padding: var(--sceneicon);
   margin: 0%;
-}
+} */
 
 .sceneinfo {
   font-family: var(--font-fam), sans-serif;

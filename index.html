@@ -10,7 +10,7 @@
       content="Scene is invite only & BDSM/kink play focused"
     />
 
-    <link rel="stylesheet" href="css/scene.css" />
+    <link rel="stylesheet" href="/css/scene-refactor.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <header class="scenelogo">
+    <header class="scene-header">
       <svg
         width="200"
         height="200"
@@ -47,75 +47,57 @@
         />
       </svg>
     </header>
-
-    <section class="tagcontainer">
-      <div class="tagline one">
-        <h2>
-          Scene is an intimate
-          <strong>kink and BDSM play-focused party.</strong>
-        </h2>
-      </div>
-
-      <div class="tagline two">
-        <h2>
-          Scene celebrates
-          <strong
-            >courageous sexual energy and creative self-expression.</strong
-          >
-        </h2>
-      </div>
-
-      <div class="tagline three">
-        <h2>
-          Scene combines art installation, theatre and playroom with a desire to
-          contemporise the aesthetic of kink.
-        </h2>
-      </div>
-
-      <div class="tagline four">
-        <h2>
-          Scene champions sex industry professionals, kinky artists, creators,
-          makers and innovators.
-        </h2>
-      </div>
-
-      <div class="tagline five">
-        <h2>Scene is <strong>invite only.</strong></h2>
-      </div>
-
-      <div class="tagline six">
-        <h2>Enjoy the Scene.</h2>
-      </div>
-    </section>
-
-    <figure class="sceneiconblk">
-      <svg
-        width="100"
-        height="100"
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 422 422"
-      >
-        <path
-          d="M422.83 422.14H-.83V-1.52h423.66Zm-418.66-5h413.66V3.48H4.17Z"
-        />
-        <path
-          d="M418.78 421H3.22L1 417.4 208.78 1h4.44L421 417.4ZM7.23 416h407.54L211 7.67Z"
-        />
-      </svg>
-    </figure>
-
     <main>
-      <section class="scenedescription">
-        <p class="para1">
-          The emphasis of Scene is play: freedom to play with and in front of
-          one another. The liminal space created by this freedom invites each of
-          us to become in turn both voyeur and exhibitionist; to give and to
-          receive and to leave at the end of the night changed in some way.
+      <section>
+        <h3>What is Scene?</h3>
+        <ul>
+          <li>Scene is an intimate kink and BDSM play-focused party.</li>
+          <li>
+            Scene celebrates courageous sexual energy and creative
+            self-expression.
+          </li>
+          <li>
+            Scene combines art installation, theatre and playroom with a desire
+            to contemporise the aesthetic of kink.
+          </li>
+          <li>
+            Scene champions sex industry professionals, kinky artists, creators,
+            makers and innovators.
+          </li>
+          <li>Scene is invite only.</li>
+          <li>Enjoy the Scene.</li>
+        </ul>
+      </section>
+
+      <figure class="scene-icon">
+        <svg
+          class="scene-svg"
+          width="100"
+          height="100"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 422 422"
+        >
+          <path
+            d="M422.83 422.14H-.83V-1.52h423.66Zm-418.66-5h413.66V3.48H4.17Z"
+          />
+          <path
+            d="M418.78 421H3.22L1 417.4 208.78 1h4.44L421 417.4ZM7.23 416h407.54L211 7.67Z"
+          />
+        </svg>
+      </figure>
+
+      <section>
+        <h3>The emphasis of Scene.</h3>
+        <p class="stack-sm">
+          The freedom to play with and in front of one another creates a liminal
+          space that invites each of us to become in turn both voyeur and
+          exhibitionist; to give and to receive and to leave at the end of the
+          night changed in some way.
         </p>
       </section>
 
-      <figure class="scenesmliconblk">
+      <figure class="scene-icon">
         <svg
           width="60"
           height="60"
@@ -132,10 +114,10 @@
         </svg>
       </figure>
 
-      <section class="sceneinfo">
-        <h3 class="onboardingHed">Want to come to Scene?</h3>
+      <section>
+        <h3>Want to come to Scene?</h3>
 
-        <p class="onboardingP">
+        <p class="stack-sm">
           Scene is a small, curated, play focussed event at which complex
           psychological and physical dynamics are explored and boundaries are
           pushed, as such we do everything we can to ensure that the humans
@@ -151,30 +133,29 @@
           above, we require the following information:
         </p>
 
-        <div class="centredList">
-          <p>-A little about your journey into kink</p>
+        <ul class="stack-lg">
+          <li>A little about your journey into kink.</li>
+          <li>In what way you engage with your local scene.</li>
 
-          <p>-In what way you engage with your local scene</p>
-          <p>
-            -To describe a space in which you've had a positive playing
-            experience
-          </p>
-          <p>-Any links to social media you'd like to share with us</p>
-        </div>
+          <li>Any links to social media you'd like to share with us.</li>
+          <li>
+            To describe a space in which you've had a positive playing
+            experience.
+          </li>
+        </ul>
 
-        <p class="disclaimer">
+        <p class="stack-lg">
           Please note due to the size of the event an invitation is not
           guaranteed.
-          <br />
-
-          Love, Scene. x
         </p>
+        <p class="stack-sm">Love, Scene. x</p>
 
-        <p class="sceneEmail">scenespaceldn+enquiries@gmail.com</p>
+        <div id="enquiries-wrapper" class="stack-md">
+          <p>scenespaceldn+enquiries@gmail.com</p>
+        </div>
       </section>
 
       <nav class="ticketwidget">
-        <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
         <div class="tt-widget">
           <div class="tt-widget-fallback">
             <p>
