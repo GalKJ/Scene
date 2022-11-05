@@ -18,6 +18,7 @@
 
     /* Margin */
     --li: 0.5% 0%;
+    --enquiries: 3%;
 
     /* This gradient has colour stops to blend the top/bottom with the page background colour. */
     --grad-col: #ff5f1f80, #00cccc80, #ffffff;
@@ -94,6 +95,11 @@ body {
     padding: var(--icon-padding);
     margin: 1% 0%;
     
+}
+
+#enquiries-wrapper {
+    margin-bottom: var(--enquiries);
+    text-align: center;
 }
 
 
