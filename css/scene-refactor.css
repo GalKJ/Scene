@@ -2,12 +2,6 @@
     /* Typography */
     --letter-spacing: 0.05rem;
     --fs: 1rem;
-    --p-fs: 1.1rem;
-    
-    /* Font weights */
-    --fw1: 100;
-    --fw2: 200;
-    --fw3: 300;
     
     /* Font family */
     --font-fam: "Jost";
@@ -66,10 +60,6 @@ section {
     margin-top: 4rem;
   }
 
-/* .center-list-items {
-  display: flex;
-  flex-direction: column;
-} */
 
 /* App specific styles */
 
