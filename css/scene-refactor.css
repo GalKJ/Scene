@@ -36,6 +36,11 @@ ul {
     padding: 0;
   }
 
+section {
+  max-width: 90vw;
+  margin: auto;
+}
+
 /* Layout primitives */
 .stack-sm > * + * {
     margin-top: 0.5rem;
@@ -58,6 +63,13 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
+
+/* .center-text {
+  max-width: 90vw;
+    margin: auto;
+} */
+
+
   
 .width-sm {
     max-width: 20rem;
@@ -88,6 +100,7 @@ body {
     display: flex;
     justify-content: center;
     padding: var(--icon-padding);
+    margin: 1% 0%;
     
 }
 
