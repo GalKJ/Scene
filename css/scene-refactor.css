@@ -49,7 +49,7 @@ section {
 }
 
 /* Layout primitives */
-.stack-sm > * + * {
+.stack-sm {
     margin-top: 0.5rem;
   }
   
