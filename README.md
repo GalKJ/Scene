@@ -2,7 +2,7 @@
 
 ## The site
 
-Currently built in html and css and incorperating a ticket purchase widget the site is clear and explains the events core priciples and rules. We are planning to expand to a multi page JavaScript powered dynamic site with photographic content. The site can viewed by following this link 
+Currently built in html and css and incorperating a ticket purchase widget the site is clear and explains the events core priciples and rules. We are planning to expand to a multi page JavaScript powered dynamic site with photographic content. The site can viewed by following this link https://d0g3bl2.github.io/Scene/ to the github pages deployment. 
 
 ## The event
 
